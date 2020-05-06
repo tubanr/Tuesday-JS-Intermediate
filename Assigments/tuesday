@@ -1,0 +1,71 @@
+//#1  (Addition)
+
+ var count = 200;
+ while (count <= 2700) {
+ if (count % 5 === 0  count % 3 === 0) {
+ console.log(count);
+  }
+ count++;
+  }
+
+
+
+
+//#2 ( Shift the Values)
+
+
+x=[2,1,6,4,-7];
+for (var i=0; i<x.length-1; i++){
+ x[i] = x[i+1];
+}
+x[x.length-1]=0; 
+console.log(x)
+ 
+
+
+
+//#3(FizzBuzz)
+
+for(var i = 1; i< 135; i++){
+   if(i%3 === 0){
+       console.log('fizz')
+  }
+   else if(i%5===0){
+        console.log('buz')
+   }
+ }
+
+
+
+
+
+
+
+//#4 (Fibonacci)
+
+
+
+
+
+
+
+
+
+
+//#5 (Remove The Negative)
+
+ var x=[1, -2,4,1]
+ for(var i = x.length-1; i>=0; i--)
+   {
+    if (x[i]<0){
+         x.splice(i,1 );
+    }
+  }
+  console.log(x)
+
+
+
+
+//#6 (Communist Censorship)
+
+
